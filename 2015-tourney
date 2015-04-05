@@ -1,0 +1,78 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.RandomForest -I 75 -K 0 -S 1
+Relation:     matchups
+Instances:    186758
+Attributes:   36
+              location
+              points_for
+              points_against
+              field_goal_percent
+              free_throw_percent
+              three_point_percent
+              efficient_field_goal_percent
+              points_per_weighted_shot
+              turnover_rate
+              blocks
+              fouls
+              offensive_rebounds
+              total_rebounds
+              steals
+              assists
+              possessions
+              offensive_points_per_possession
+              defensive_points_per_possession
+              opp_points_for
+              opp_points_against
+              opp_field_goal_percent
+              opp_free_throw_percent
+              opp_three_point_percent
+              opp_efficient_field_goal_percent
+              opp_points_per_weighted_shot
+              opp_turnover_rate
+              opp_blocks
+              opp_fouls
+              opp_offensive_rebounds
+              opp_total_rebounds
+              opp_steals
+              opp_assists
+              opp_possessions
+              opp_offensive_points_per_possession
+              opp_defensive_points_per_possession
+              outcome
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Random forest of 75 trees, each constructed while considering 6 random features.
+Out of bag error: 0.265
+
+
+
+Time taken to build model: 898.88 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances      138502               74.1612 %
+Incorrectly Classified Instances     48256               25.8388 %
+Kappa statistic                          0.4832
+Mean absolute error                      0.3476
+Root mean squared error                  0.4152
+Relative absolute error                 69.5132 %
+Root relative squared error             83.0303 %
+Total Number of Instances           186758     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.742     0.259      0.741     0.742     0.742      0.822    w
+                 0.741     0.258      0.742     0.741     0.741      0.822    l
+Weighted Avg.    0.742     0.258      0.742     0.742     0.742      0.822
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 69336 24047 |     a = w
+ 24209 69166 |     b = l
+

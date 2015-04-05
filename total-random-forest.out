@@ -1,0 +1,59 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.RandomForest -I 75 -K 0 -S 1
+Relation:     1997-2015-weka.filters.unsupervised.attribute.Remove-R3,18
+Instances:    193496
+Attributes:   17
+              location
+              points_for
+              field_goal_percent
+              free_throw_percent
+              three_point_percent
+              efficient_field_goal_percent
+              points_per_weighted_shot
+              turnover_rate
+              blocks
+              fouls
+              offensive_rebounds
+              total_rebounds
+              steals
+              assists
+              possessions
+              offensive_points_per_possession
+              outcome
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Random forest of 75 trees, each constructed while considering 5 random features.
+Out of bag error: 0.1458
+
+
+
+Time taken to build model: 616.95 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correctly Classified Instances      193486               99.9948 %
+Incorrectly Classified Instances        10                0.0052 %
+Kappa statistic                          0.9999
+Mean absolute error                      0.0805
+Root mean squared error                  0.1202
+Relative absolute error                 16.1106 %
+Root relative squared error             24.0582 %
+Total Number of Instances           193496     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0          1         1         1          1        w
+                 1         0          1         1         1          1        l
+Weighted Avg.    1         0          1         1         1          1    
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 99598     6 |     a = w
+     4 93888 |     b = l
+

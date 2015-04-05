@@ -1,0 +1,47 @@
+% 1. Title: Single Matchups with Season Averages
+%
+% 2. Sources:
+%      (a) Creator: Reed Wilson
+%      (b) Date: April 5, 2015
+
+@relation matchups
+
+@attribute location                               { h, a, n }
+@attribute points_for                             real
+@attribute points_against                         real
+@attribute field_goal_percent                     real
+@attribute free_throw_percent                     real
+@attribute three_point_percent                    real
+@attribute efficient_field_goal_percent           real
+@attribute points_per_weighted_shot               real
+@attribute turnover_rate                          real
+@attribute blocks                                 real
+@attribute fouls                                  real
+@attribute offensive_rebounds                     real
+@attribute total_rebounds                         real
+@attribute steals                                 real
+@attribute assists                                real
+@attribute possessions                            real
+@attribute offensive_points_per_possession        real
+@attribute defensive_points_per_possession        real
+@attribute opp_points_for                         real
+@attribute opp_points_against                     real
+@attribute opp_field_goal_percent                 real
+@attribute opp_free_throw_percent                 real
+@attribute opp_three_point_percent                real
+@attribute opp_efficient_field_goal_percent       real
+@attribute opp_points_per_weighted_shot           real
+@attribute opp_turnover_rate                      real
+@attribute opp_blocks                             real
+@attribute opp_fouls                              real
+@attribute opp_offensive_rebounds                 real
+@attribute opp_total_rebounds                     real
+@attribute opp_steals                             real
+@attribute opp_assists                            real
+@attribute opp_possessions                        real
+@attribute opp_offensive_points_per_possession    real
+@attribute opp_defensive_points_per_possession    real
+@attribute outcome                                { w, l }
+
+@data
+n,84.1612903226,72.2258064516,46.9387096774,77.0677419355,37.7580645161,54.164516129,1.17677419355,15.9129032258,2.93548387097,20.1612903226,10.1290322581,35.1935483871,7.70967741935,17.1290322581,73.4516129032,1.14870967742,0.937741935484,73.0967741935,67.7419354839,43.4129032258,77.3774193548,34.8483870968,49.064516129,1.07903225806,15.5838709677,3.64516129032,19.5161290323,10.064516129,33.4193548387,6.64516129032,12.935483871,69.1935483871,1.06225806452,0.986774193548,l

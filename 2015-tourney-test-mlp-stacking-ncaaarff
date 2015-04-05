@@ -1,0 +1,915 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     matchups
+Instances:    186758
+Attributes:   36
+              location
+              points_for
+              points_against
+              field_goal_percent
+              free_throw_percent
+              three_point_percent
+              efficient_field_goal_percent
+              points_per_weighted_shot
+              turnover_rate
+              blocks
+              fouls
+              offensive_rebounds
+              total_rebounds
+              steals
+              assists
+              possessions
+              offensive_points_per_possession
+              defensive_points_per_possession
+              opp_points_for
+              opp_points_against
+              opp_field_goal_percent
+              opp_free_throw_percent
+              opp_three_point_percent
+              opp_efficient_field_goal_percent
+              opp_points_per_weighted_shot
+              opp_turnover_rate
+              opp_blocks
+              opp_fouls
+              opp_offensive_rebounds
+              opp_total_rebounds
+              opp_steals
+              opp_assists
+              opp_possessions
+              opp_offensive_points_per_possession
+              opp_defensive_points_per_possession
+              outcome
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.03051711852430683
+    Node 2    -0.9401404729471345
+    Node 3    -0.525626365196498
+    Node 4    0.8681663518848645
+    Node 5    1.0216330058466514
+    Node 6    0.6388658336447813
+    Node 7    -1.044414586229045
+    Node 8    -0.33645033680067604
+    Node 9    0.4378070302214335
+    Node 10    -0.09457155992188568
+    Node 11    -0.41749393053045597
+    Node 12    -0.311904012144669
+    Node 13    0.516734637932935
+    Node 14    0.865959829363595
+    Node 15    0.33315864180078086
+    Node 16    -0.35177321395898575
+    Node 17    -0.3911165305825654
+    Node 18    -0.682024444502801
+    Node 19    0.7115944331350136
+    Node 20    -0.44146644616545433
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.030517118524306847
+    Node 2    0.940140472947135
+    Node 3    0.5256263651964984
+    Node 4    -0.8681663518848642
+    Node 5    -1.0216330058466518
+    Node 6    -0.6388658336447813
+    Node 7    1.0444145862290453
+    Node 8    0.33645033680067604
+    Node 9    -0.4378070302214331
+    Node 10    0.09457155992188589
+    Node 11    0.417493930530456
+    Node 12    0.311904012144669
+    Node 13    -0.5167346379329347
+    Node 14    -0.8659598293635951
+    Node 15    -0.333158641800781
+    Node 16    0.35177321395898564
+    Node 17    0.3911165305825655
+    Node 18    0.6820244445028009
+    Node 19    -0.7115944331350137
+    Node 20    0.44146644616545416
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -4.800689243446768
+    Attrib location=h    -6.3524638782686935
+    Attrib location=a    6.3191947045258
+    Attrib location=n    4.917778894719332
+    Attrib points_for    -8.120536649489761
+    Attrib points_against    18.89301042438626
+    Attrib field_goal_percent    -5.531246171884012
+    Attrib free_throw_percent    -7.819027144457056
+    Attrib three_point_percent    -11.798284494419093
+    Attrib efficient_field_goal_percent    5.995669383342309
+    Attrib points_per_weighted_shot    -5.169186940748671
+    Attrib turnover_rate    -2.8358183677101496
+    Attrib blocks    -3.8045562624343954
+    Attrib fouls    2.502997825061871
+    Attrib offensive_rebounds    1.3374462603250565
+    Attrib total_rebounds    -9.36998640993338
+    Attrib steals    8.538138436302352
+    Attrib assists    1.9389154659824472
+    Attrib possessions    -5.5942707083045375
+    Attrib offensive_points_per_possession    4.639196773618678
+    Attrib defensive_points_per_possession    -19.81645432320814
+    Attrib opp_points_for    21.508386459593883
+    Attrib opp_points_against    -34.663977849104654
+    Attrib opp_field_goal_percent    12.965129683886525
+    Attrib opp_free_throw_percent    -11.783529301150653
+    Attrib opp_three_point_percent    -0.29610796175935217
+    Attrib opp_efficient_field_goal_percent    -15.56952822034361
+    Attrib opp_points_per_weighted_shot    2.231057405120607
+    Attrib opp_turnover_rate    -8.503241905393338
+    Attrib opp_blocks    -0.6052370020695533
+    Attrib opp_fouls    -1.6243447497454664
+    Attrib opp_offensive_rebounds    -7.275084453375572
+    Attrib opp_total_rebounds    -0.4171590550227515
+    Attrib opp_steals    -2.6654410079451334
+    Attrib opp_assists    -1.3606688873032777
+    Attrib opp_possessions    11.506202845033418
+    Attrib opp_offensive_points_per_possession    -2.2934060585430642
+    Attrib opp_defensive_points_per_possession    21.61897809114244
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    2.7150878571932555
+    Attrib location=h    -2.679151382625031
+    Attrib location=a    0.5620108646581845
+    Attrib location=n    -0.549774868216598
+    Attrib points_for    -20.915752182069483
+    Attrib points_against    23.583880177023193
+    Attrib field_goal_percent    8.194748663624734
+    Attrib free_throw_percent    -2.038912803530869
+    Attrib three_point_percent    6.283559408715994
+    Attrib efficient_field_goal_percent    1.107991458732284
+    Attrib points_per_weighted_shot    -11.615073871899925
+    Attrib turnover_rate    5.215630290112961
+    Attrib blocks    4.5782485544238245
+    Attrib fouls    -2.3373376958413785
+    Attrib offensive_rebounds    -2.3945781501004855
+    Attrib total_rebounds    -4.828525652668135
+    Attrib steals    2.128194672360349
+    Attrib assists    5.867034765529649
+    Attrib possessions    -2.193928627008962
+    Attrib offensive_points_per_possession    -3.724597713668589
+    Attrib defensive_points_per_possession    -10.898955891999291
+    Attrib opp_points_for    18.558072284162954
+    Attrib opp_points_against    -28.186934832702434
+    Attrib opp_field_goal_percent    7.2339339225877035
+    Attrib opp_free_throw_percent    2.2593531127481863
+    Attrib opp_three_point_percent    -2.566994277847193
+    Attrib opp_efficient_field_goal_percent    -17.634161527525652
+    Attrib opp_points_per_weighted_shot    6.189786619033933
+    Attrib opp_turnover_rate    -0.3264049788958229
+    Attrib opp_blocks    -0.2061729955921763
+    Attrib opp_fouls    0.9658407502833547
+    Attrib opp_offensive_rebounds    -4.228833393107095
+    Attrib opp_total_rebounds    9.487110304765434
+    Attrib opp_steals    6.698498627964735
+    Attrib opp_assists    0.9405370317063996
+    Attrib opp_possessions    2.9109321509984105
+    Attrib opp_offensive_points_per_possession    4.513098812917011
+    Attrib opp_defensive_points_per_possession    23.171611489956444
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -5.098158479932726
+    Attrib location=h    2.1885951957717267
+    Attrib location=a    1.608782695108611
+    Attrib location=n    1.4289344122779817
+    Attrib points_for    27.25505082010592
+    Attrib points_against    -37.93871750394036
+    Attrib field_goal_percent    3.557141690398833
+    Attrib free_throw_percent    -3.081438637365798
+    Attrib three_point_percent    -3.0726448354043208
+    Attrib efficient_field_goal_percent    -22.84933169016519
+    Attrib points_per_weighted_shot    2.825809388113943
+    Attrib turnover_rate    -0.5291202754487221
+    Attrib blocks    -3.3106311469649987
+    Attrib fouls    1.260351099023598
+    Attrib offensive_rebounds    4.704385885047247
+    Attrib total_rebounds    -10.367312922920474
+    Attrib steals    -8.050024854481507
+    Attrib assists    1.6019141367674112
+    Attrib possessions    16.9933925673815
+    Attrib offensive_points_per_possession    5.309758662405903
+    Attrib defensive_points_per_possession    13.416971269484618
+    Attrib opp_points_for    -19.8240739627148
+    Attrib opp_points_against    21.436276621383488
+    Attrib opp_field_goal_percent    1.1725171486418213
+    Attrib opp_free_throw_percent    -6.616008602833786
+    Attrib opp_three_point_percent    5.675166199656174
+    Attrib opp_efficient_field_goal_percent    11.28050909199932
+    Attrib opp_points_per_weighted_shot    -11.688685570208959
+    Attrib opp_turnover_rate    -2.5672128266511756
+    Attrib opp_blocks    5.72418369774253
+    Attrib opp_fouls    5.1373281297759705
+    Attrib opp_offensive_rebounds    -5.025315688375638
+    Attrib opp_total_rebounds    -7.872270764896981
+    Attrib opp_steals    -1.739707842112336
+    Attrib opp_assists    5.701465454899529
+    Attrib opp_possessions    0.5188207022518229
+    Attrib opp_offensive_points_per_possession    3.5496658761314936
+    Attrib opp_defensive_points_per_possession    -18.291880640230332
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    0.6556241031126978
+    Attrib location=h    3.843887267425821
+    Attrib location=a    -6.3420865989749045
+    Attrib location=n    1.8907937778956643
+    Attrib points_for    23.531658110260103
+    Attrib points_against    -31.496368419523893
+    Attrib field_goal_percent    2.811347935670114
+    Attrib free_throw_percent    1.4252972837259301
+    Attrib three_point_percent    -6.498431289546907
+    Attrib efficient_field_goal_percent    -8.253442060154596
+    Attrib points_per_weighted_shot    9.450374970784303
+    Attrib turnover_rate    -7.3968304289172435
+    Attrib blocks    -1.932971276637381
+    Attrib fouls    -0.2229609404607797
+    Attrib offensive_rebounds    -1.8090633470433197
+    Attrib total_rebounds    4.391588762781109
+    Attrib steals    3.8672504475797913
+    Attrib assists    -5.184614807276543
+    Attrib possessions    3.4109255322157255
+    Attrib offensive_points_per_possession    11.965811185602458
+    Attrib defensive_points_per_possession    15.527448294105907
+    Attrib opp_points_for    -21.15659049137508
+    Attrib opp_points_against    39.13090439788836
+    Attrib opp_field_goal_percent    -1.3349316012119707
+    Attrib opp_free_throw_percent    0.19391476159094204
+    Attrib opp_three_point_percent    4.423787829035538
+    Attrib opp_efficient_field_goal_percent    3.036711312756546
+    Attrib opp_points_per_weighted_shot    -13.018011486415869
+    Attrib opp_turnover_rate    9.373286166143457
+    Attrib opp_blocks    -0.007634588511776683
+    Attrib opp_fouls    -3.0526484993638805
+    Attrib opp_offensive_rebounds    4.007949339253187
+    Attrib opp_total_rebounds    -6.945872649787164
+    Attrib opp_steals    -5.089456123385441
+    Attrib opp_assists    -4.275159196064213
+    Attrib opp_possessions    -8.102231500918311
+    Attrib opp_offensive_points_per_possession    -0.8161245954417772
+    Attrib opp_defensive_points_per_possession    -19.531852665552837
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -1.2064224720334638
+    Attrib location=h    1.068300654644196
+    Attrib location=a    -0.8489073857232798
+    Attrib location=n    0.8905117708637754
+    Attrib points_for    12.098996350015293
+    Attrib points_against    -21.351242916892033
+    Attrib field_goal_percent    4.597083295266856
+    Attrib free_throw_percent    2.9535676224428897
+    Attrib three_point_percent    2.5610312465308076
+    Attrib efficient_field_goal_percent    -9.190231372371027
+    Attrib points_per_weighted_shot    -2.1320827583608324
+    Attrib turnover_rate    -1.0536208067220219
+    Attrib blocks    3.6794316928561654
+    Attrib fouls    -5.2965915526307485
+    Attrib offensive_rebounds    3.352771554349677
+    Attrib total_rebounds    -1.7436823318338677
+    Attrib steals    -0.06484519211389116
+    Attrib assists    6.357263482316525
+    Attrib possessions    9.24741212657977
+    Attrib offensive_points_per_possession    1.2362466457118517
+    Attrib defensive_points_per_possession    13.594668967878416
+    Attrib opp_points_for    -13.993398086859118
+    Attrib opp_points_against    16.788915237238236
+    Attrib opp_field_goal_percent    2.2205179383578932
+    Attrib opp_free_throw_percent    7.133946816047748
+    Attrib opp_three_point_percent    0.607568124876041
+    Attrib opp_efficient_field_goal_percent    3.1672773114842667
+    Attrib opp_points_per_weighted_shot    -6.207285591148975
+    Attrib opp_turnover_rate    4.559588631543614
+    Attrib opp_blocks    -4.199954341002759
+    Attrib opp_fouls    1.5816580667060534
+    Attrib opp_offensive_rebounds    5.212207753933666
+    Attrib opp_total_rebounds    -7.134500054263806
+    Attrib opp_steals    -0.9503995826455358
+    Attrib opp_assists    2.54036953258468
+    Attrib opp_possessions    -5.787065609211058
+    Attrib opp_offensive_points_per_possession    4.369723669308358
+    Attrib opp_defensive_points_per_possession    -0.5838937722970893
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    7.784922624273193
+    Attrib location=h    -1.964525486527192
+    Attrib location=a    -3.1397705774877376
+    Attrib location=n    -2.664001306365494
+    Attrib points_for    -16.02725204700798
+    Attrib points_against    16.309451099802246
+    Attrib field_goal_percent    1.268074879046454
+    Attrib free_throw_percent    7.507404193534444
+    Attrib three_point_percent    -2.95026309070934
+    Attrib efficient_field_goal_percent    -3.2451673984645217
+    Attrib points_per_weighted_shot    -6.9183645350094665
+    Attrib turnover_rate    -1.284442223581146
+    Attrib blocks    -2.644946814046828
+    Attrib fouls    -0.054596571560306645
+    Attrib offensive_rebounds    2.184506592395154
+    Attrib total_rebounds    2.08337691149626
+    Attrib steals    0.744290900518752
+    Attrib assists    -2.8518205467614797
+    Attrib possessions    -5.709777568326156
+    Attrib offensive_points_per_possession    -1.7694557982616088
+    Attrib defensive_points_per_possession    -5.2968461404196185
+    Attrib opp_points_for    8.719789260766753
+    Attrib opp_points_against    -11.36583826377214
+    Attrib opp_field_goal_percent    -3.2824378327152512
+    Attrib opp_free_throw_percent    -5.543381026213556
+    Attrib opp_three_point_percent    5.964226429557612
+    Attrib opp_efficient_field_goal_percent    -4.497186191810267
+    Attrib opp_points_per_weighted_shot    5.529161520673635
+    Attrib opp_turnover_rate    1.2042576233271574
+    Attrib opp_blocks    1.2482841425583597
+    Attrib opp_fouls    3.021260209832104
+    Attrib opp_offensive_rebounds    0.747943920791546
+    Attrib opp_total_rebounds    8.661643917058946
+    Attrib opp_steals    5.473262118598658
+    Attrib opp_assists    -4.096130753724477
+    Attrib opp_possessions    -13.273689157164801
+    Attrib opp_offensive_points_per_possession    8.027864029117428
+    Attrib opp_defensive_points_per_possession    6.905726789430383
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -5.784465894639769
+    Attrib location=h    2.4941564652892674
+    Attrib location=a    1.5207653546764692
+    Attrib location=n    1.7012444348306566
+    Attrib points_for    -21.09089486722872
+    Attrib points_against    24.47794718031625
+    Attrib field_goal_percent    -4.639472274954144
+    Attrib free_throw_percent    8.18745455327563
+    Attrib three_point_percent    9.173719152501295
+    Attrib efficient_field_goal_percent    3.986044118695642
+    Attrib points_per_weighted_shot    -11.211043072623283
+    Attrib turnover_rate    2.9927920327868756
+    Attrib blocks    -3.61272765968785
+    Attrib fouls    2.130889581148625
+    Attrib offensive_rebounds    -9.499933634242641
+    Attrib total_rebounds    3.694824902338771
+    Attrib steals    -2.7706719178370034
+    Attrib assists    3.724482154429817
+    Attrib possessions    -7.306032748753941
+    Attrib offensive_points_per_possession    -3.326419564834123
+    Attrib defensive_points_per_possession    -9.471256583497569
+    Attrib opp_points_for    18.145145331900096
+    Attrib opp_points_against    -29.445395938950274
+    Attrib opp_field_goal_percent    12.899816633320196
+    Attrib opp_free_throw_percent    -7.641198792886356
+    Attrib opp_three_point_percent    -7.115362109913369
+    Attrib opp_efficient_field_goal_percent    -11.713467477209605
+    Attrib opp_points_per_weighted_shot    8.385281955634783
+    Attrib opp_turnover_rate    -1.425408871938791
+    Attrib opp_blocks    2.7466538352448566
+    Attrib opp_fouls    -2.6428261964348656
+    Attrib opp_offensive_rebounds    -14.083387026528705
+    Attrib opp_total_rebounds    12.4976509811488
+    Attrib opp_steals    6.4613588978810705
+    Attrib opp_assists    -6.935086658558732
+    Attrib opp_possessions    14.254741686659921
+    Attrib opp_offensive_points_per_possession    10.093326160546845
+    Attrib opp_defensive_points_per_possession    19.742816384190593
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    0.5334249431099207
+    Attrib location=h    2.3414035005025524
+    Attrib location=a    -1.3370270995868148
+    Attrib location=n    -1.509590533219057
+    Attrib points_for    26.914254359581268
+    Attrib points_against    -36.40220208389022
+    Attrib field_goal_percent    -1.1455709853593037
+    Attrib free_throw_percent    -5.875364666180131
+    Attrib three_point_percent    4.352039537726959
+    Attrib efficient_field_goal_percent    -14.60733698343869
+    Attrib points_per_weighted_shot    11.938054397725816
+    Attrib turnover_rate    3.8314589165153423
+    Attrib blocks    1.3688502039965493
+    Attrib fouls    -1.2866749947555902
+    Attrib offensive_rebounds    -6.135352329587745
+    Attrib total_rebounds    7.975317985418129
+    Attrib steals    3.500704101237936
+    Attrib assists    0.43206017027093513
+    Attrib possessions    13.088751554060634
+    Attrib offensive_points_per_possession    9.395419609909574
+    Attrib defensive_points_per_possession    16.58830765991923
+    Attrib opp_points_for    -32.36703379083998
+    Attrib opp_points_against    31.664704515462994
+    Attrib opp_field_goal_percent    9.195170137951202
+    Attrib opp_free_throw_percent    4.214569662545059
+    Attrib opp_three_point_percent    -2.0847696656959727
+    Attrib opp_efficient_field_goal_percent    3.2765855925309513
+    Attrib opp_points_per_weighted_shot    -13.599735480248645
+    Attrib opp_turnover_rate    0.6679860404238711
+    Attrib opp_blocks    -1.4306949186166786
+    Attrib opp_fouls    2.323335409157582
+    Attrib opp_offensive_rebounds    -0.3911187055955336
+    Attrib opp_total_rebounds    -1.340542653887857
+    Attrib opp_steals    1.6649415387975202
+    Attrib opp_assists    3.1210837088992007
+    Attrib opp_possessions    -11.953700300805137
+    Attrib opp_offensive_points_per_possession    -6.63453320739969
+    Attrib opp_defensive_points_per_possession    -10.238701145068617
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -5.240108762553965
+    Attrib location=h    4.109358348250579
+    Attrib location=a    -1.523337131566718
+    Attrib location=n    2.660296176238082
+    Attrib points_for    -16.81628012108171
+    Attrib points_against    15.538180263776376
+    Attrib field_goal_percent    5.37314604098437
+    Attrib free_throw_percent    -4.267323587301056
+    Attrib three_point_percent    -3.90168895316419
+    Attrib efficient_field_goal_percent    -2.789158187820422
+    Attrib points_per_weighted_shot    -2.463603875805177
+    Attrib turnover_rate    -5.09389635477762
+    Attrib blocks    -8.185151128997743
+    Attrib fouls    -6.371236812442492
+    Attrib offensive_rebounds    5.0282135900201785
+    Attrib total_rebounds    -4.974632243832037
+    Attrib steals    -5.898198532143747
+    Attrib assists    -12.660387876049958
+    Attrib possessions    -12.816145510863
+    Attrib offensive_points_per_possession    9.008759016118763
+    Attrib defensive_points_per_possession    7.051473730709778
+    Attrib opp_points_for    6.955669631633453
+    Attrib opp_points_against    9.74322946059255
+    Attrib opp_field_goal_percent    -10.761899375893572
+    Attrib opp_free_throw_percent    17.593946786821135
+    Attrib opp_three_point_percent    -2.5287455636504292
+    Attrib opp_efficient_field_goal_percent    -2.168331142947856
+    Attrib opp_points_per_weighted_shot    3.8013518438415246
+    Attrib opp_turnover_rate    9.529518781229442
+    Attrib opp_blocks    0.5883748313792331
+    Attrib opp_fouls    3.7332480900003704
+    Attrib opp_offensive_rebounds    -7.968840091590498
+    Attrib opp_total_rebounds    -2.2517705456664308
+    Attrib opp_steals    0.07656881237834234
+    Attrib opp_assists    -7.469191357814364
+    Attrib opp_possessions    6.45177227187399
+    Attrib opp_offensive_points_per_possession    5.464854663056386
+    Attrib opp_defensive_points_per_possession    17.77449720140461
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -7.413317664999659
+    Attrib location=h    2.1673926630750735
+    Attrib location=a    6.3924444155938
+    Attrib location=n    -1.1769613578632583
+    Attrib points_for    -23.001281211503716
+    Attrib points_against    32.44715318977537
+    Attrib field_goal_percent    6.020112568761128
+    Attrib free_throw_percent    -7.700642411087216
+    Attrib three_point_percent    8.269612686478823
+    Attrib efficient_field_goal_percent    8.343791790502673
+    Attrib points_per_weighted_shot    -13.32371634435938
+    Attrib turnover_rate    -2.5000076607824036
+    Attrib blocks    -2.682425864023485
+    Attrib fouls    -3.565903104313255
+    Attrib offensive_rebounds    -2.34852888034479
+    Attrib total_rebounds    -0.34606424731689395
+    Attrib steals    -2.285570462460534
+    Attrib assists    -5.223563652578466
+    Attrib possessions    -6.213543673930495
+    Attrib offensive_points_per_possession    0.8637632495243759
+    Attrib defensive_points_per_possession    -19.98567605430824
+    Attrib opp_points_for    28.016252536317406
+    Attrib opp_points_against    -33.555463484441724
+    Attrib opp_field_goal_percent    -2.8697550424630687
+    Attrib opp_free_throw_percent    2.056782147128823
+    Attrib opp_three_point_percent    1.837933969277509
+    Attrib opp_efficient_field_goal_percent    -16.05602661887628
+    Attrib opp_points_per_weighted_shot    11.929750580874366
+    Attrib opp_turnover_rate    6.726854120664729
+    Attrib opp_blocks    3.1031638886342248
+    Attrib opp_fouls    -1.1788068983501898
+    Attrib opp_offensive_rebounds    0.8668948482892128
+    Attrib opp_total_rebounds    -6.26262550503355
+    Attrib opp_steals    -5.282127837192473
+    Attrib opp_assists    1.0463241192300652
+    Attrib opp_possessions    17.82047809589417
+    Attrib opp_offensive_points_per_possession    6.56392537807622
+    Attrib opp_defensive_points_per_possession    17.278089223719036
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -1.1301019633521623
+    Attrib location=h    1.8241200383295157
+    Attrib location=a    -1.666457117119067
+    Attrib location=n    0.988679080516536
+    Attrib points_for    -7.364350483414831
+    Attrib points_against    15.210424479316174
+    Attrib field_goal_percent    6.435683335523189
+    Attrib free_throw_percent    -7.142949486956618
+    Attrib three_point_percent    -13.349915238729682
+    Attrib efficient_field_goal_percent    6.4162245985854955
+    Attrib points_per_weighted_shot    -2.242300308015336
+    Attrib turnover_rate    -6.380325706376392
+    Attrib blocks    -6.738553835958519
+    Attrib fouls    6.78533104376072
+    Attrib offensive_rebounds    1.6514424787276407
+    Attrib total_rebounds    -0.07280049669848596
+    Attrib steals    0.14163029966668322
+    Attrib assists    2.5785771387928915
+    Attrib possessions    -7.893884656530113
+    Attrib offensive_points_per_possession    1.584794261248602
+    Attrib defensive_points_per_possession    13.322904680683951
+    Attrib opp_points_for    3.81227060014584
+    Attrib opp_points_against    -14.053415283188261
+    Attrib opp_field_goal_percent    3.1061452750458707
+    Attrib opp_free_throw_percent    0.6241443179941324
+    Attrib opp_three_point_percent    -3.535691657842242
+    Attrib opp_efficient_field_goal_percent    -7.1240006040148005
+    Attrib opp_points_per_weighted_shot    3.0462343311981552
+    Attrib opp_turnover_rate    -5.45621781922679
+    Attrib opp_blocks    -0.6126326756652586
+    Attrib opp_fouls    -9.173084363021164
+    Attrib opp_offensive_rebounds    -14.325348351608824
+    Attrib opp_total_rebounds    11.929128178600193
+    Attrib opp_steals    5.480437712476825
+    Attrib opp_assists    6.017935964144673
+    Attrib opp_possessions    3.5551099703641813
+    Attrib opp_offensive_points_per_possession    -3.3525267159501184
+    Attrib opp_defensive_points_per_possession    6.243768100058281
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -6.452603733393136
+    Attrib location=h    5.733109221063736
+    Attrib location=a    -4.266113262567298
+    Attrib location=n    5.005175564222727
+    Attrib points_for    25.503826953667676
+    Attrib points_against    -35.73481378856622
+    Attrib field_goal_percent    3.048103256161004
+    Attrib free_throw_percent    -3.759119206707701
+    Attrib three_point_percent    -2.163057397583391
+    Attrib efficient_field_goal_percent    -16.33343238841469
+    Attrib points_per_weighted_shot    6.36272657333515
+    Attrib turnover_rate    2.5789161464251356
+    Attrib blocks    2.2630773691985757
+    Attrib fouls    3.573154353544588
+    Attrib offensive_rebounds    -7.404998122531286
+    Attrib total_rebounds    1.5166435058140826
+    Attrib steals    -0.8510782860798722
+    Attrib assists    1.4388928758574135
+    Attrib possessions    14.456612349505347
+    Attrib offensive_points_per_possession    -0.6903604396925053
+    Attrib defensive_points_per_possession    37.8573320394192
+    Attrib opp_points_for    -11.516975311660525
+    Attrib opp_points_against    21.962330322574406
+    Attrib opp_field_goal_percent    -6.373697475357559
+    Attrib opp_free_throw_percent    -0.30930597255134384
+    Attrib opp_three_point_percent    -0.7328849785569956
+    Attrib opp_efficient_field_goal_percent    12.010795839939304
+    Attrib opp_points_per_weighted_shot    -9.78779426002989
+    Attrib opp_turnover_rate    -2.229555069935509
+    Attrib opp_blocks    -2.7260797705217605
+    Attrib opp_fouls    0.8922085919467543
+    Attrib opp_offensive_rebounds    -5.5805339771171765
+    Attrib opp_total_rebounds    4.426301947698606
+    Attrib opp_steals    2.2692820285120563
+    Attrib opp_assists    -0.27834814959727955
+    Attrib opp_possessions    -2.5650413154298963
+    Attrib opp_offensive_points_per_possession    2.70191525543408
+    Attrib opp_defensive_points_per_possession    -31.75766371755936
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    0.5357460217331562
+    Attrib location=h    0.559590937413924
+    Attrib location=a    1.0001183437346688
+    Attrib location=n    -2.2216303293227893
+    Attrib points_for    22.42061702240962
+    Attrib points_against    -19.044526724401653
+    Attrib field_goal_percent    3.5113469325736246
+    Attrib free_throw_percent    0.5034823188886287
+    Attrib three_point_percent    -6.926755662391112
+    Attrib efficient_field_goal_percent    -7.455155947882618
+    Attrib points_per_weighted_shot    5.899595207597897
+    Attrib turnover_rate    -1.413266989045548
+    Attrib blocks    3.1064078930814323
+    Attrib fouls    -1.1031065860690914
+    Attrib offensive_rebounds    -6.773162746385813
+    Attrib total_rebounds    5.525087896438792
+    Attrib steals    6.548741714893045
+    Attrib assists    -0.5965444138248068
+    Attrib possessions    -3.502035774107922
+    Attrib offensive_points_per_possession    2.9263766395976023
+    Attrib defensive_points_per_possession    11.637184086606236
+    Attrib opp_points_for    -18.167539198737167
+    Attrib opp_points_against    26.894583869241032
+    Attrib opp_field_goal_percent    1.3809583502700928
+    Attrib opp_free_throw_percent    -0.1523049328799622
+    Attrib opp_three_point_percent    1.8740316791435814
+    Attrib opp_efficient_field_goal_percent    -0.1823488431104839
+    Attrib opp_points_per_weighted_shot    -7.165079437990808
+    Attrib opp_turnover_rate    -3.050326619652951
+    Attrib opp_blocks    -3.1778085918417838
+    Attrib opp_fouls    -2.0700286889404595
+    Attrib opp_offensive_rebounds    3.2780780260229374
+    Attrib opp_total_rebounds    -2.6981559488131497
+    Attrib opp_steals    -3.7836749461728143
+    Attrib opp_assists    -1.198990626346074
+    Attrib opp_possessions    -8.091378327346881
+    Attrib opp_offensive_points_per_possession    -7.119133484531292
+    Attrib opp_defensive_points_per_possession    -8.884378955806667
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    0.6443296392493595
+    Attrib location=h    -1.454293383188283
+    Attrib location=a    0.2225788936353181
+    Attrib location=n    0.4986695349001318
+    Attrib points_for    11.409336118299395
+    Attrib points_against    -18.51206594193414
+    Attrib field_goal_percent    -3.5379298806107102
+    Attrib free_throw_percent    -5.66927721660004
+    Attrib three_point_percent    6.400492542976509
+    Attrib efficient_field_goal_percent    -1.4831878979252657
+    Attrib points_per_weighted_shot    6.158846292426892
+    Attrib turnover_rate    -6.744522819263671
+    Attrib blocks    -4.010021425710375
+    Attrib fouls    6.467736982881346
+    Attrib offensive_rebounds    -7.353423801920863
+    Attrib total_rebounds    6.6918602614844245
+    Attrib steals    7.83720853248444
+    Attrib assists    -9.90221466621201
+    Attrib possessions    3.581155961042332
+    Attrib offensive_points_per_possession    3.2737282377693675
+    Attrib defensive_points_per_possession    10.543942804636119
+    Attrib opp_points_for    -22.569845487470914
+    Attrib opp_points_against    6.153386536434076
+    Attrib opp_field_goal_percent    -9.386378592684652
+    Attrib opp_free_throw_percent    -1.8150939570982187
+    Attrib opp_three_point_percent    6.756788031206808
+    Attrib opp_efficient_field_goal_percent    -0.6759241845434477
+    Attrib opp_points_per_weighted_shot    -7.060928487289313
+    Attrib opp_turnover_rate    2.4201985932495425
+    Attrib opp_blocks    -7.378990866280163
+    Attrib opp_fouls    -4.252664722904278
+    Attrib opp_offensive_rebounds    -0.40251664121525044
+    Attrib opp_total_rebounds    12.242800602465492
+    Attrib opp_steals    6.789649815277032
+    Attrib opp_assists    -1.3422628207281595
+    Attrib opp_possessions    -5.636609654764125
+    Attrib opp_offensive_points_per_possession    -1.5990429910035646
+    Attrib opp_defensive_points_per_possession    5.363883734153514
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    -0.16952815364855944
+    Attrib location=h    -2.6371994180111726
+    Attrib location=a    2.5058739621405546
+    Attrib location=n    0.3706121046734978
+    Attrib points_for    -10.80235385196054
+    Attrib points_against    8.311143846397234
+    Attrib field_goal_percent    -1.7325607988768763
+    Attrib free_throw_percent    6.023886917641031
+    Attrib three_point_percent    2.008471152328538
+    Attrib efficient_field_goal_percent    -3.030777698523235
+    Attrib points_per_weighted_shot    -7.441350794437243
+    Attrib turnover_rate    1.0360691120901115
+    Attrib blocks    2.2467304706656352
+    Attrib fouls    1.9609317098424413
+    Attrib offensive_rebounds    4.507669432088236
+    Attrib total_rebounds    -1.7816267297873436
+    Attrib steals    -9.323872205404998
+    Attrib assists    -1.4354635545455645
+    Attrib possessions    1.7053633725550201
+    Attrib offensive_points_per_possession    -14.632369698482815
+    Attrib defensive_points_per_possession    5.985398579182014
+    Attrib opp_points_for    10.029699273119533
+    Attrib opp_points_against    -10.769646764381237
+    Attrib opp_field_goal_percent    9.444675877072312
+    Attrib opp_free_throw_percent    -17.32637174046314
+    Attrib opp_three_point_percent    4.156891801125413
+    Attrib opp_efficient_field_goal_percent    -2.8725479075172675
+    Attrib opp_points_per_weighted_shot    -0.6171098914730326
+    Attrib opp_turnover_rate    -0.5256362747243405
+    Attrib opp_blocks    0.8033140010808423
+    Attrib opp_fouls    2.204692256096837
+    Attrib opp_offensive_rebounds    7.001180152661011
+    Attrib opp_total_rebounds    -11.821197221827713
+    Attrib opp_steals    7.901374819898712
+    Attrib opp_assists    7.534013808336264
+    Attrib opp_possessions    -11.2450192887953
+    Attrib opp_offensive_points_per_possession    5.964902167616804
+    Attrib opp_defensive_points_per_possession    -6.281347004567623
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    -3.4122717026630314
+    Attrib location=h    -1.248775220125489
+    Attrib location=a    2.990384412404036
+    Attrib location=n    1.6880351795331416
+    Attrib points_for    -33.64378475737525
+    Attrib points_against    27.897851269825793
+    Attrib field_goal_percent    -0.8196832293743423
+    Attrib free_throw_percent    3.0591035040023407
+    Attrib three_point_percent    -0.5597814871734628
+    Attrib efficient_field_goal_percent    9.05478341022722
+    Attrib points_per_weighted_shot    -12.94135762997406
+    Attrib turnover_rate    -0.3354264885973665
+    Attrib blocks    -2.029019482687951
+    Attrib fouls    3.864030553041594
+    Attrib offensive_rebounds    3.7220294509286624
+    Attrib total_rebounds    -4.4233111300108225
+    Attrib steals    -3.1228559049099673
+    Attrib assists    0.6431874190129723
+    Attrib possessions    -1.042887733307505
+    Attrib offensive_points_per_possession    -8.018875845914591
+    Attrib defensive_points_per_possession    -11.98675155625371
+    Attrib opp_points_for    28.999683049018497
+    Attrib opp_points_against    -37.20503717889447
+    Attrib opp_field_goal_percent    0.5977765063960172
+    Attrib opp_free_throw_percent    -1.1952177206622574
+    Attrib opp_three_point_percent    -0.0471505694939398
+    Attrib opp_efficient_field_goal_percent    -13.719430016831746
+    Attrib opp_points_per_weighted_shot    9.907002485424373
+    Attrib opp_turnover_rate    -1.558592996205279
+    Attrib opp_blocks    1.4463022843399636
+    Attrib opp_fouls    0.9977558628858884
+    Attrib opp_offensive_rebounds    0.2058586398699607
+    Attrib opp_total_rebounds    0.5569876903632484
+    Attrib opp_steals    -2.4256444399256583
+    Attrib opp_assists    5.514762823010345
+    Attrib opp_possessions    13.98266387695787
+    Attrib opp_offensive_points_per_possession    9.73571304377414
+    Attrib opp_defensive_points_per_possession    10.934678524257658
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    -3.9576304290639372
+    Attrib location=h    -3.894603528385762
+    Attrib location=a    4.516045602048729
+    Attrib location=n    3.3289396404894025
+    Attrib points_for    -7.304614535654779
+    Attrib points_against    22.587449440026802
+    Attrib field_goal_percent    2.570263931315649
+    Attrib free_throw_percent    10.460175870724887
+    Attrib three_point_percent    0.9257648046445637
+    Attrib efficient_field_goal_percent    6.0055215146208685
+    Attrib points_per_weighted_shot    -6.501198140335206
+    Attrib turnover_rate    3.024211827852496
+    Attrib blocks    -6.7342039212963325
+    Attrib fouls    1.8684873124788848
+    Attrib offensive_rebounds    3.0957651399211548
+    Attrib total_rebounds    0.8430136241136617
+    Attrib steals    -3.172728616884619
+    Attrib assists    -6.83590412471225
+    Attrib possessions    -1.7154826169193287
+    Attrib offensive_points_per_possession    5.029101818077679
+    Attrib defensive_points_per_possession    -33.835721524635105
+    Attrib opp_points_for    16.611564229505678
+    Attrib opp_points_against    -22.771344665178702
+    Attrib opp_field_goal_percent    -6.173819578529322
+    Attrib opp_free_throw_percent    -5.283594306881993
+    Attrib opp_three_point_percent    -2.237249071067672
+    Attrib opp_efficient_field_goal_percent    -12.166893894440433
+    Attrib opp_points_per_weighted_shot    4.0114444424450175
+    Attrib opp_turnover_rate    3.2413638644793985
+    Attrib opp_blocks    5.725588679290555
+    Attrib opp_fouls    -0.8311714635917204
+    Attrib opp_offensive_rebounds    -13.185097372215049
+    Attrib opp_total_rebounds    7.951996237270832
+    Attrib opp_steals    3.64556825814443
+    Attrib opp_assists    1.371304259358382
+    Attrib opp_possessions    2.928813269585206
+    Attrib opp_offensive_points_per_possession    5.543400412786263
+    Attrib opp_defensive_points_per_possession    27.510111480446184
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    -3.632689049909444
+    Attrib location=h    2.6188242958595205
+    Attrib location=a    -0.5966915782706146
+    Attrib location=n    1.5690835003799202
+    Attrib points_for    11.01211968213452
+    Attrib points_against    -9.173400626359053
+    Attrib field_goal_percent    9.87377338069801
+    Attrib free_throw_percent    0.6538810654030693
+    Attrib three_point_percent    3.451560259282342
+    Attrib efficient_field_goal_percent    0.6980608204313642
+    Attrib points_per_weighted_shot    4.88805835369763
+    Attrib turnover_rate    9.495661398713702
+    Attrib blocks    3.7843405296976584
+    Attrib fouls    -5.008553661917725
+    Attrib offensive_rebounds    4.8565502018469235
+    Attrib total_rebounds    2.8444670003258907
+    Attrib steals    -4.98506224436465
+    Attrib assists    -3.1560360985214553
+    Attrib possessions    -6.232646274135939
+    Attrib offensive_points_per_possession    13.17805255333757
+    Attrib defensive_points_per_possession    2.4308269585942184
+    Attrib opp_points_for    -5.059282291434284
+    Attrib opp_points_against    11.375410133313261
+    Attrib opp_field_goal_percent    -0.47778228870476286
+    Attrib opp_free_throw_percent    -3.9466942202183994
+    Attrib opp_three_point_percent    -5.0200688717344395
+    Attrib opp_efficient_field_goal_percent    -3.6737319218731437
+    Attrib opp_points_per_weighted_shot    -4.259576459539014
+    Attrib opp_turnover_rate    7.240813631960246
+    Attrib opp_blocks    1.011233346747599
+    Attrib opp_fouls    5.91369992999108
+    Attrib opp_offensive_rebounds    9.010624077058988
+    Attrib opp_total_rebounds    -10.027011327138672
+    Attrib opp_steals    -11.201950639992313
+    Attrib opp_assists    -5.353767297592531
+    Attrib opp_possessions    -1.8111998280721575
+    Attrib opp_offensive_points_per_possession    -1.0734941626411847
+    Attrib opp_defensive_points_per_possession    -1.9584308540285027
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    -6.647024895861131
+    Attrib location=h    -1.0494104848194286
+    Attrib location=a    4.2555268022220085
+    Attrib location=n    3.4538871576675345
+    Attrib points_for    -18.89533500834041
+    Attrib points_against    17.380301161220633
+    Attrib field_goal_percent    4.5695939796062435
+    Attrib free_throw_percent    2.672694072038452
+    Attrib three_point_percent    -6.785429354199768
+    Attrib efficient_field_goal_percent    6.542332635526849
+    Attrib points_per_weighted_shot    -6.464200242934539
+    Attrib turnover_rate    5.659557905778007
+    Attrib blocks    -0.16116429945644314
+    Attrib fouls    3.292168903108617
+    Attrib offensive_rebounds    12.593969628415707
+    Attrib total_rebounds    -11.91538473372463
+    Attrib steals    -8.71975797178956
+    Attrib assists    2.0008453428047734
+    Attrib possessions    -6.670987281384425
+    Attrib offensive_points_per_possession    7.811782558750057
+    Attrib defensive_points_per_possession    1.7578946135020408
+    Attrib opp_points_for    22.591236605657475
+    Attrib opp_points_against    -21.118119699847114
+    Attrib opp_field_goal_percent    7.03469952108889
+    Attrib opp_free_throw_percent    9.163015322781481
+    Attrib opp_three_point_percent    -1.7493803059757678
+    Attrib opp_efficient_field_goal_percent    -11.496690506133543
+    Attrib opp_points_per_weighted_shot    1.7301843043991734
+    Attrib opp_turnover_rate    1.8789846548052438
+    Attrib opp_blocks    -1.7341982280718637
+    Attrib opp_fouls    -5.351044442454995
+    Attrib opp_offensive_rebounds    -0.46525613326037357
+    Attrib opp_total_rebounds    1.3304913697670153
+    Attrib opp_steals    -1.8873022732686164
+    Attrib opp_assists    -10.304166847726668
+    Attrib opp_possessions    9.548781434317318
+    Attrib opp_offensive_points_per_possession    13.090044270718808
+    Attrib opp_defensive_points_per_possession    6.6089558393428085
+Class w
+    Input
+    Node 0
+Class l
+    Input
+    Node 1
+
+
+Time taken to build model: 3345.07 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correctly Classified Instances      141642               75.8425 %
+Incorrectly Classified Instances     45116               24.1575 %
+Kappa statistic                          0.5169
+Mean absolute error                      0.3145
+Root mean squared error                  0.4028
+Relative absolute error                 62.9033 %
+Root relative squared error             80.5545 %
+Total Number of Instances           186758     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.739     0.222      0.769     0.739     0.754      0.843    w
+                 0.778     0.261      0.749     0.778     0.763      0.843    l
+Weighted Avg.    0.758     0.242      0.759     0.758     0.758      0.843
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 69026 24357 |     a = w
+ 20759 72616 |     b = l
+
+
+=== Re-evaluation on test set ===
+
+User supplied test set
+Relation:     matchups
+Instances:     unknown (yet). Reading incrementally
+Attributes:   36
+
+=== Summary ===
+
+Correctly Classified Instances          39               82.9787 %
+Incorrectly Classified Instances         8               17.0213 %
+Kappa statistic                          0.5534
+Mean absolute error                      0.3166
+Root mean squared error                  0.3895
+Total Number of Instances               47     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.861     0.273      0.912     0.861     0.886      0.838    w
+                 0.727     0.139      0.615     0.727     0.667      0.838    l
+Weighted Avg.    0.83      0.241      0.842     0.83      0.834      0.838
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 31  5 |  a = w
+  3  8 |  b = l
+

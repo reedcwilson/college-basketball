@@ -1,0 +1,114 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 10 -S 0 -E 20 -H 2 -R
+Relation:     1997-2015-weka.filters.unsupervised.attribute.Remove-R3,18-weka.filters.supervised.attribute.AddClassification-Wweka.classifiers.rules.ZeroR-weka.filters.supervised.attribute.AddClassification-Wweka.classifiers.rules.ZeroR-weka.filters.supervised.attribute.AddClassification-Wweka.classifiers.rules.ZeroR-weka.filters.supervised.attribute.AddClassification-Wweka.classifiers.bayes.NaiveBayes
+Instances:    193496
+Attributes:   17
+              location
+              points_for
+              field_goal_percent
+              free_throw_percent
+              three_point_percent
+              efficient_field_goal_percent
+              points_per_weighted_shot
+              turnover_rate
+              blocks
+              fouls
+              offensive_rebounds
+              total_rebounds
+              steals
+              assists
+              possessions
+              offensive_points_per_possession
+              outcome
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -3.2353632818693736
+    Node 2    2.6941119792008243
+    Node 3    3.3738823284295956
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    3.235363281869373
+    Node 2    -2.6941119792008235
+    Node 3    -3.3738823284295956
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    14.228088001938884
+    Attrib location=h    -4.236107373132696
+    Attrib location=a    -5.068955198552258
+    Attrib location=n    -4.979327838485181
+    Attrib points_for    23.833152249538372
+    Attrib field_goal_percent    14.474486680584672
+    Attrib free_throw_percent    -6.362705900627188
+    Attrib three_point_percent    3.0676310484825593
+    Attrib efficient_field_goal_percent    -56.4546449774854
+    Attrib points_per_weighted_shot    52.69138001270734
+    Attrib turnover_rate    -0.22253646785350936
+    Attrib blocks    2.0905405191556863
+    Attrib fouls    -9.412099327305546
+    Attrib offensive_rebounds    -13.571065433695892
+    Attrib total_rebounds    26.474302999495393
+    Attrib steals    19.686564344803003
+    Attrib assists    1.5769339898284065
+    Attrib possessions    -33.32396194132123
+    Attrib offensive_points_per_possession    8.377115568674984
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    9.292931256148032
+    Attrib location=h    -2.561889762651612
+    Attrib location=a    -3.4447135334658685
+    Attrib location=n    -3.214815612937339
+    Attrib points_for    23.580601920534694
+    Attrib field_goal_percent    12.537401329700437
+    Attrib free_throw_percent    -6.886502210440649
+    Attrib three_point_percent    2.5636480794504175
+    Attrib efficient_field_goal_percent    -55.11818816891046
+    Attrib points_per_weighted_shot    54.249186318212146
+    Attrib turnover_rate    -1.318781324209863
+    Attrib blocks    2.186812349427519
+    Attrib fouls    -8.81659243661441
+    Attrib offensive_rebounds    -14.962914490983945
+    Attrib total_rebounds    28.96349501211783
+    Attrib steals    21.34243702199755
+    Attrib assists    1.9337676461959388
+    Attrib possessions    -35.869059935033626
+    Attrib offensive_points_per_possession    8.957900826810192
+Class w
+    Input
+    Node 0
+Class l
+    Input
+    Node 1
+
+
+Time taken to build model: 246.46 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correctly Classified Instances      167210               86.4152 %
+Incorrectly Classified Instances     26286               13.5848 %
+Kappa statistic                          0.7291
+Mean absolute error                      0.1916
+Root mean squared error                  0.3067
+Relative absolute error                 38.3557 %
+Root relative squared error             61.3619 %
+Total Number of Instances           193496     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.806     0.074      0.92      0.806     0.859      0.948    w
+                 0.926     0.194      0.818     0.926     0.869      0.948    l
+Weighted Avg.    0.864     0.132      0.871     0.864     0.864      0.948
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 80262 19342 |     a = w
+  6944 86948 |     b = l
+
