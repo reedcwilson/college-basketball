@@ -1,0 +1,82 @@
+Naive Bayes
+72.02
+70.21
+
+Naive Bayes Simple
+72.01
+70.21
+
+RBF
+69.66
+72.34
+
+KNN (5)
+61.70
+
+Bagging with REPTree
+88.67
+65.96
+
+Bagging with MLP (2 hidden layers)
+75.78
+80.85
+
+
+location = h
+offensive_points_per_possession >= 0.96
+defensive_points_per_possession <= 0.90
+points_against < 68.63
+points_for < 72.46
+turnover_rate < 20
+possessions > 62.33
+
+fouls <= 19.75
+field_goal_percent >= 48.33
+free_throw_percent >= 70.80
+three_point_percent >= 35.16
+efficient_field_goal_percent >= 52.98
+steals >= 7.85
+assists > 11.83
+blocks > 4.45
+points_per_weighted_shot >= 1.22
+offensive_rebounds > 12.38
+total_rebounds >= 30.77
+
+
+1.  opp_points_against    36.03896227217007
+2.  opp_points_for    -32.69015853397044
+3.  points_against    -30.541459564216442
+4.  opp_points_per_weighted_shot    -25.5509941971699
+5.  points_for    23.001347976457573
+6.  opp_defensive_points_per_possession    -20.84519915036774
+7.  opp_efficient_field_goal_percent    19.985611971951823
+8.  points_per_weighted_shot    19.415938441570066
+9.  efficient_field_goal_percent    -14.39395509639673
+10. defensive_points_per_possession    14.181174906620743
+11. possessions    11.714001860084807
+12. opp_offensive_points_per_possession    5.838034344883319
+13. opp_possessions    -3.7915619527974362
+14. opp_free_throw_percent    3.6805387351262784
+15. opp_total_rebounds    -3.460289819771395
+16. offensive_points_per_possession    3.4130090394343724
+17. total_rebounds    3.1347728280998775
+18. opp_turnover_rate    2.7744757725084592
+19. free_throw_percent    -2.39174442846145
+20. offensive_rebounds    -1.8685131687660057
+21. opp_field_goal_percent    -1.820800435226148
+22. blocks    1.793308783279886
+23. steals    1.5984211878565269
+24. turnover_rate    -1.597116817113574
+25. location=a    1.5796961359683326
+26. fouls    -1.4044245315871111
+27. opp_offensive_rebounds    1.2389282601451155
+28. location=n    -1.2382807769445465
+29. opp_steals    -1.2371777813235363
+30. opp_blocks    -1.1060106234299978
+31. three_point_percent    -1.0148895683021093
+32. location=h    0.6180592234977876
+33. field_goal_percent    -0.4987546483076435
+34. opp_fouls    0.4673362007258729
+35. assists    0.4113919907041015
+36. opp_assists    -0.3928601375417811
+37. opp_three_point_percent    0.015875100096607846
